@@ -52,15 +52,20 @@ body{
 
 @media screen and (max-width: 768px) {
 
-    .navbar{
-        width: 100%;
-    }
-
-
     .nav-menu{
         flex-direction: column;
         align-items: flex-start;
         padding: 16px;
     }
     
+}
+
+/* Mobile (hasta 480px) */
+@media screen and (max-width: 480px) {
+
+    .nav-menu{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px;
+    }
 }
