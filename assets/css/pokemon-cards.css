@@ -29,8 +29,9 @@
 }
 
 .pokemon-card :hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
+    transform: translateY(-10px);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
 }
 
 .pokemon-image{
@@ -73,7 +74,7 @@
 }
 
 .type-fire{
-    background-image: linear-gradient(135deg, #ff416c 0%, #ff4b2b 100%);
+    background-image: linear-gradient(135deg, #ff416c 0%, #f5a976 100%);
     padding: 4px 12px;
 }
 
