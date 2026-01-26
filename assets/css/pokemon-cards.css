@@ -28,8 +28,9 @@
     min-height: 300px;
 }
 
-.pokemon-card :hover {
+.pokemon-card:hover {
     transform: translateY(-10px);
+    z-index: 0;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease;
 }
@@ -62,7 +63,6 @@
     text-transform: capitalize;
     list-style: none;
     padding: 0;
-
     gap: 8px;
     margin: 8px 0;
     border-radius: 10px;
