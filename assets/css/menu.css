@@ -71,7 +71,6 @@ body{
 /* Mobile (hasta 480px) */
 @media screen and (max-width: 480px) {
     .nav-container{
-
         flex-direction: row;
         align-items: center;
         justify-content: center;
@@ -80,6 +79,11 @@ body{
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        
+        gap: 10px;
+    
+    }
+    .nav-link{
+        font-size: 0.9em;
+        padding: 4px 8px;
     }
 }
